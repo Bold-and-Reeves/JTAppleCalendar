@@ -538,7 +538,7 @@ open class JTAppleCalendarLayout: UICollectionViewLayout, JTAppleCalendarLayoutP
         }
         return retval
     }
-
+	
     func clearCache() {
         headerCache.removeAll()
         cellCache.removeAll()
